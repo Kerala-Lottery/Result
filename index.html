@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kerala Lottery Result</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap')
+    </style>
+    
+</head>
+<body>
+    
+    <center>
+      <img src="logo.png" alt="logo" style="width: 300px; pointer-events: none; display: block; padding: 30px 10px;">
+    </center>
+    <div class="container" id="container">
+      <form id="customerForm">
+        <label for="serialNumber">Ticket Number:</label>
+        <input type="text" id="serialNumber" name="serialNumber" required>
+        <label for="mobileNumber">Mobile Number:</label>
+        <input type="text" id="mobileNumber" name="mobileNumber" required>
+        <input type="submit" value="SUBMIT">
+      </form>
+      <div id="customerDetails">
+            <!-- Customer details will be displayed here -->
+      </div>
+    </div>
+    
+    
+  <div id="loader">
+    <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+    <p><b>Please Wait...</b></p>
+  </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
